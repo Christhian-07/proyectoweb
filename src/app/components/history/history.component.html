@@ -1,0 +1,51 @@
+<form [formGroup]="formulario" (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+        <label class="form-label">codigo</label>
+        <input type="text" class="form-control" formControlName="codigo">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">nombre</label>
+        <textarea class="form-control" cols="30" rows="10" formControlName="nombre"></textarea>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">apellido</label>
+        <input type="text" class="form-control" formControlName="apellido">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">cedula</label>
+        <input type="text" class="form-control" formControlName="cedula">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">edad</label>
+        <input type="text" class="form-control" formControlName="edad">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">fecha</label>
+        <input type="text" class="form-control" formControlName="fecha">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">sexo</label>
+        <input type="text" class="form-control" formControlName="sexo">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">direccion</label>
+        <input type="text" class="form-control" formControlName="direccion">
+    </div>
+<div class="mb-3">
+        <label class="form-label">sintomas</label>
+        <input type="text" class="form-control" formControlName="sintomas">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">diagnostico</label>
+        <input type="text" class="form-control" formControlName="diagnostico">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">tratamiento</label>
+        <input type="text" class="form-control" formControlName="tratamiento">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">observaciones</label>
+        <input type="text" class="form-control" formControlName="observaciones">
+    </div>
+    <input type="submit" value="Enviar" class="btn btn-info">
+</form>
